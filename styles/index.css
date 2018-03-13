@@ -1,0 +1,54 @@
+html, body {
+  height: 100%;
+}
+
+#banner {
+    display:flex;
+    flex-direction: row;
+    height: 12%;
+    background-color: #46166B;
+    align-items: center;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  max-height: 90%;
+  padding: 5px;
+}
+
+#welcome {
+  display: flex;
+  margin: 50px;
+  color: white;
+  font-size: 2.5vw;
+  justify-content: center;
+  align-items: center;
+}
+
+#students {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin:auto;
+    width: 80%;
+    margin-top: 75px;
+}
+
+#students td, #students th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#students tr:nth-child(even){background-color: #f2f2f2;}
+
+#studentss tr:hover {background-color: #ddd;}
+
+#students th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #46166B;
+    color: white;
+}
